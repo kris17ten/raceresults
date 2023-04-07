@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "npm run build", 
-    "build": "webpack -d --devtool && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot",
+    "build": "-d --devtool && cp src/index.html dist/index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   }
