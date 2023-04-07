@@ -11,8 +11,8 @@
     "path": "^0.12.7"
   },
   "scripts": {
-     "build": "npm run build:scripts -s && npm run build:styles -s && npm run build:markup -s",
-    "build:scripts": "browserify -d assets/scripts/main.js -p [minifyify --compressPath . --map main.js.map --output dist/main.js.map] | hashmark -n dist/main.js -s -l 8 -m assets.json \"dist/{name}{hash}{ext}\"",
+     "build": "npm run build:scripts -s",
+    "build:scripts": "[minifyify --compressPath . --map main.js.map --output dist/main.js.map] | hashmark -n dist/main.js -s -l 8 -m assets.json \"dist/{name}{hash}{ext}\"",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   }
