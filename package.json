@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "npm run build", 
-    "build": "-d --devtool && cp src/index.html dist/index.html",
+    "build": "cp src/index.html dist/index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   }
