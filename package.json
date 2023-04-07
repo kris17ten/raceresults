@@ -12,7 +12,7 @@
   },
   "scripts": {
      "build": "npm run",
-    "predeploy": "npm run public",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d public"
   }
 }
