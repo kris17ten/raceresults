@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-color: #121212;
+    color: white;
+    font-family: 'Lato',sans-serif;
+    padding: 2vw;
+}
+
+div {
+    padding-bottom: 2vw;
+}
+
+select {
+    background-color: #121212;
+    color: white;
+    border-radius: 2px;
+    padding: 0.5vw;
+}
+
+select :checked, :hover {
+    background-color: #DAA030;
+}
+
+option :hover, :checked {
+    background-color: #DAA030;
+}
+
+#results table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#raceresults td {
+    border: 1px solid #333333;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+#raceresults th {
+    border: 1px solid #333333;
+    padding: 8px;
+  }
+  
+#raceresults tr:nth-child(even) {
+    background-color: #333333;
+  }
+
+
+button {
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    background-color: #121212;
+    font-weight: bold;
+    font-size: medium;
+    
+  }
+
+#footer {
+    color: #777777;
+    padding-bottom: 0px;
+    padding-top: 2vw;
+}
+
+#footer p {
+    border-top: 1px solid #454545;
+    padding-top: 0.5vw;
+}
