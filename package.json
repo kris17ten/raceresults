@@ -11,7 +11,7 @@
     "path": "^0.12.7"
   },
   "scripts": {
-     "build": "npm run",
+     "build": "npm run server.js",
     "predeploy": "npm run build",
     "deploy": "main -d public"
   }
